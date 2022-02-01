@@ -6,7 +6,7 @@
 /*   By: ydumaine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 13:10:50 by ydumaine          #+#    #+#             */
-/*   Updated: 2022/01/31 14:08:15 by ydumaine         ###   ########.fr       */
+/*   Updated: 2022/02/01 16:52:50 by ydumaine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_POINT_H
 
 typedef struct point	t_point;
-struct point
+struct s_point
 {
 	int	x;
 	int	y;

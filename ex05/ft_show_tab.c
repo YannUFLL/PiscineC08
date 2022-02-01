@@ -6,13 +6,12 @@
 /*   By: ydumaine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 00:59:53 by ydumaine          #+#    #+#             */
-/*   Updated: 2022/02/01 02:16:31 by ydumaine         ###   ########.fr       */
+/*   Updated: 2022/02/01 16:48:09 by ydumaine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_stock_str.h"
 #include <unistd.h>
-#include <stdio.h>
 
 void	ft_putchar(char c)
 {
@@ -66,11 +65,10 @@ void	ft_putstr(char *str)
 	}
 }
 
-void ft_show_tab(struct s_stock_str *par)
+void	ft_show_tab(struct s_stock_str *par)
 {
 	int	i;
 
-	printf("\n%s", par[0].str);
 	i = 0;
 	while (par[i].str != 0)
 	{
@@ -83,4 +81,3 @@ void ft_show_tab(struct s_stock_str *par)
 		i++;
 	}
 }
-

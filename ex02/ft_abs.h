@@ -6,9 +6,11 @@
 /*   By: ydumaine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 12:45:12 by ydumaine          #+#    #+#             */
-/*   Updated: 2022/01/31 13:05:32 by ydumaine         ###   ########.fr       */
+/*   Updated: 2022/02/01 17:00:18 by ydumaine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#ifndef FT_ABS_H
+# define FT_ABS_H
 
-#define ABS(Value) Value < 0 ? Value = -Value : Value
-
+# define ABS(Value) Value < 0 ? Value = -Value : Value
+#endif 
